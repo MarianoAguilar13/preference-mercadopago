@@ -1,0 +1,32 @@
+{
+  "name": "practica-mercadopago",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MarianoAguilar13/practica-backend-paginado-sync-dbs.git",
+  "author": "Mariano <mariano_aguilar_13@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "date-fns": "^2.29.3",
+    "firebase-admin": "^11.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "mercadopago": "^1.5.15",
+    "micro": "^10.0.1",
+    "micro-method-router": "^0.1.0",
+    "next": "^13.1.6",
+    "parse-bearer-token": "^1.0.1",
+    "random-seed": "^0.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.28",
+    "typescript": "4.9.5"
+  }
+}
