@@ -92,8 +92,7 @@ async function postHandler(req: NextApiRequest, res: NextApiResponse, token) {
       },
       metadata: { userId: token.userId },
       external_reference: order.id,
-      notification_url:
-        "https://webhook.site/797dba63-8288-490a-8dd2-9ce82cdb510e",
+      notification_url: "https://preference-mercadopago.vercel.app",
     });
 
     res.send({ url: preference.sandbox_init_point });
