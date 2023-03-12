@@ -92,7 +92,8 @@ async function postHandler(req: NextApiRequest, res: NextApiResponse, token) {
       },
       metadata: { userId: token.userId },
       external_reference: order.id,
-      notification_url: "https://preference-mercadopago.vercel.app",
+      notification_url:
+        "https://preference-mercadopago.vercel.app/api/webhooks/mercadopago",
     });
 
     res.send({ url: preference.sandbox_init_point });
